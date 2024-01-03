@@ -1,7 +1,4 @@
 #!/usr/bin/node
-//a script that gets the contents of a webpage 
-// And stores it in a file
-
 const request = require('request');
 const fs = require('fs');
 const args = process.argv.slice(2);
